@@ -1,6 +1,6 @@
 # Factory Method
 
-## **1. Introducción**
+## 1. Introducción
 
 El Factory Method es un patrón de diseño **creacional** que permite crear objetos sin especificar su clase exacta.
 Su idea principal es delegar la creación de objetos a las subclases o clases dedicadas a la creacion de objetos especificos.
@@ -8,7 +8,7 @@ En lugar de crear objetos directamente con `new`, el Factory Method define una i
 
 ---
 
-##  **2. Objetivo**
+## 2. Objetivo
 
 > **Definir una interfaz para crear un objeto, pero permitir que las subclases decidan qué clase concreta instanciar.**
 
@@ -19,7 +19,7 @@ De esta forma:
 
 ---
 
-## **3. Problema que resuelve**
+## 3. Problema que resuelve
 
 Imaginemos una **fábrica de vehículos** que debe crear distintos tipos (Auto, Moto, Camión).
 
