@@ -1,0 +1,15 @@
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\obj\Debug\net9.0\AbstractFactory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\obj\Debug\net9.0\AbstractFactory.AssemblyInfoInputs.cache
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\obj\Debug\net9.0\AbstractFactory.AssemblyInfo.cs
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\obj\Debug\net9.0\AbstractFactory.csproj.CoreCompileInputs.cache
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\obj\Debug\net9.0\AbstractFactory.sourcelink.json
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\bin\Debug\net9.0\AbstractFactory.exe
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\bin\Debug\net9.0\AbstractFactory.deps.json
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\bin\Debug\net9.0\AbstractFactory.runtimeconfig.json
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\bin\Debug\net9.0\AbstractFactory.dll
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\bin\Debug\net9.0\AbstractFactory.pdb
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\obj\Debug\net9.0\AbstractFactory.dll
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\obj\Debug\net9.0\refint\AbstractFactory.dll
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\obj\Debug\net9.0\AbstractFactory.pdb
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\obj\Debug\net9.0\AbstractFactory.genruntimeconfig.cache
+C:\Users\Hermes\Desktop\design-patterns\AbstractFactory\obj\Debug\net9.0\ref\AbstractFactory.dll
