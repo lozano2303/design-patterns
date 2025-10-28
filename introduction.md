@@ -6,35 +6,35 @@
 
 ##  **¿Qué son los patrones de diseño?**
 
-    Los patrones de diseño son como las formulas en las matematicas, no nos dan la respuesta al problema
-    pero se pueden usar como molde para resolverlos, un patron de diseño es una solucion o modelo que nos
-    ayuda a organizar de mejor manera nuestro codigo para hacerlo mas limpio y mas entendible, con esto, en lugar
-    de inventar una solucion desde 0 utilizamos estos patrones o guias para enfrentar los problemas en el mundo
-    del desarrollo
+Los patrones de diseño son como las formulas en las matematicas, no nos dan la respuesta al problema
+pero se pueden usar como molde para resolverlos, un patron de diseño es una solucion o modelo que nos
+ayuda a organizar de mejor manera nuestro codigo para hacerlo mas limpio y mas entendible, con esto, en lugar
+de inventar una solucion desde 0 utilizamos estos patrones o guias para enfrentar los problemas en el mundo
+del desarrollo
 
 ---
 
 **Objetivos principales:**
 
-    - Mejorar la forma en la que desarrollamos software, creando programas mas organizados y faciles de
-    mantener
-    - Hacer el codigo mas flexible para que se pueda adaptar o extender sin tener que escribir desde cero
-    - Mejorar la comunicacion entre los desarrolladores ya que hay una manera de referirse a las soluciones
-    - Ayudar a aplicar los principios SOLID siendo estos la base para escribir buen codigo
+- Mejorar la forma en la que desarrollamos software, creando programas mas organizados y faciles de
+mantener
+- Hacer el codigo mas flexible para que se pueda adaptar o extender sin tener que escribir desde cero
+- Mejorar la comunicacion entre los desarrolladores ya que hay una manera de referirse a las soluciones
+- Ayudar a aplicar los principios `SOLID` siendo estos la base para escribir buen codigo
 
 ---
 
 ## **3. Clasificación de los patrones de diseño**
 
-Los patrones se dividen en tres categorias, en la cual cada una tiene un proposito distinto
+> Los patrones se dividen en tres categorias, en la cual cada una tiene un proposito distinto
 
 ###  **A. Patrones Creacionales**
-    Se centran en cómo crear objetos de una forma controlada, flexible y asi no depender de mas clases (de manera directa)
-    esto ayuda a que no hayan "new" en todas partes, es decir la creacion de objetos sera mucho mas ordenada y facil de
-    modificar
+Se centran en cómo crear objetos de una forma controlada, flexible y asi no depender de mas clases (de manera directa)
+esto ayuda a que no hayan `new` en todas partes, es decir la creacion de objetos sera mucho mas ordenada y facil de
+modificar
 
 **Cuándo usarlos:**
-    Cuando queremos controlar la forma en la que se crean los objetos o evitar repetir código de construcción.
+> Cuando queremos controlar la forma en la que se crean los objetos o evitar repetir código de construcción.
 
 **Principales patrones:**
 1. **Singleton** → Garantiza que solo exista una instancia de una clase.
@@ -46,13 +46,13 @@ Los patrones se dividen en tres categorias, en la cual cada una tiene un proposi
 ---
 
 ### **B. Patrones Estructurales**
-    Estos patrones se centran en la organizacion y conexion entre clases u objetos para formar estructuras
-    más mucho mas grandes, mas reutilizables y mucho mas sencillas de mantener
-    se busca que las clases trabajen bien en conjunto sin depender tanto unas de otras
+Estos patrones se centran en la organizacion y conexion entre clases u objetos para formar estructuras
+más mucho mas grandes, mas reutilizables y mucho mas sencillas de mantener
+se busca que las clases trabajen bien en conjunto sin depender tanto unas de otras
 
 **Cuándo usarlos:**
-    Cuando se necesita mejorar la organización del código, reutilizar clases existentes o agregar nuevas
-    funciones sin cambiar el código original.
+>Cuando se necesita mejorar la organización del código, reutilizar clases existentes o agregar nuevas
+>funciones sin cambiar el código original.
 
 **Principales patrones:**
 1. **Adapter** → Permite que clases incompatibles se adapten y trabajen juntas.
@@ -66,11 +66,11 @@ Los patrones se dividen en tres categorias, en la cual cada una tiene un proposi
 ---
 
 ### **C. Patrones Comportamentales**
-    Estos patrones se enfocan en cómo los objetos se comunican entre sí y cómo se reparten las responsabilidades dentro del sistema
-    estos sirven para manejar mejor el flujo de información y las decisiones que se toman en el programa.
+Estos patrones se enfocan en cómo los objetos se comunican entre sí y cómo se reparten las responsabilidades dentro del sistema
+estos sirven para manejar mejor el flujo de información y las decisiones que se toman en el programa.
 
 **Cuándo usarlos:**
-    Cuando necesitamos coordinar el comportamiento entre varios objetos o mantener el código ordenado al manejar acciones, eventos o estados.
+> Cuando necesitamos coordinar el comportamiento entre varios objetos o mantener el código ordenado al manejar acciones, eventos o estados.
 
 **Principales patrones:**
 1. **Chain of Responsibility** → Pasa peticiones a través de una cadena de manejadores.  
@@ -89,8 +89,8 @@ Los patrones se dividen en tres categorias, en la cual cada una tiene un proposi
 
 ## **4. Beneficios de usar patrones de diseño**
 
-    Usar patrones de diseño es como tener un mapa antes de construir un edificio:
-    no evita el trabajo, pero sí te guía para hacerlo de forma más segura, organizada y con menos errores.
+Usar patrones de diseño es como tener un mapa antes de construir un edificio:
+no evita el trabajo, pero sí te guía para hacerlo de forma más segura, organizada y con menos errores.
 
 - Promueven un código más limpio, mantenible y escalable, que crece sin volverse un caos.
 - Fomentan la reutilización de soluciones probadas, evitando “reinventar la rueda”.
@@ -102,34 +102,35 @@ Los patrones se dividen en tres categorias, en la cual cada una tiene un proposi
 
 ## **5. Cuándo no usarlos**
 
-    Aunque los patrones de diseño son muy útiles, no siempre son necesarios.
-    A veces, intentar usar uno puede ser como usar una grúa para mover una 
-    caja pequeña: terminas complicando más de lo que ayudas.
+Aunque los patrones de diseño son muy útiles, no siempre son necesarios.
+A veces, intentar usar uno puede ser como usar una grúa para mover una 
+caja pequeña: terminas complicando más de lo que ayudas.
 
 - Cuando el problema es demasiado simple y no requiere abstracción adicional.  
 - Si el patrón añade más complejidad de la que resuelve.
 - Cuando el patrón no encaja naturalmente con lo que estamos intentando solucionar.
 
-    Los patrones deben resolver problemas, no crearlos.
-    Si se usa un patrón solo “porque suena bien”, probablemente no sea la mejor opción.
+Los patrones deben resolver problemas, no crearlos.
+Si se usa un patrón solo “porque suena bien”, probablemente no sea la mejor opción.
 
 ---
 
 ## **6. Ejemplo general (sin código)**
-    imaginemos que tenemos una fabrica de vehiculos y tenemos que crear distintos tipos de vehiculos, se puede
-    hacer con if else, switch y demas entidades de control, pero el hecho de que se pueda hacer no significa
-    que sea lo que se deba hacer y esto (if else anidados) es un antipatron, es decir, malas practicas en la programacion
-    
-    en cambio, si se usa un patron creacional, clases se encargaran de la creacion de estos objetos, es decir
-    clase "CreateCar" se encargara de crear carros y solamente de crearlos, lo mismo con las demas clases que tienen
-    su responsabilidad unica, haciendo el codigo mas escalable
+
+imaginemos que tenemos una fabrica de vehiculos y tenemos que crear distintos tipos de vehiculos, se puede
+hacer con if else, switch y demas entidades de control, pero el hecho de que se pueda hacer no significa
+que sea lo que se deba hacer y esto (if else anidados) es un `antipatron`, es decir, malas practicas en la programacion
+
+en cambio, si se usa un patron creacional, clases se encargaran de la creacion de estos objetos, es decir
+clase `CreateCar` se encargara de crear carros y solamente de crearlos, lo mismo con las demas clases que tienen
+su responsabilidad unica, haciendo el codigo mas escalable
 
 ---
 
 ## **7. Conclusión**
-    en conclusion, los patrones de diseño son guias que nos ayudan a resolver problemas en el desarrollo de software
-    no son "recetas exactas" sino moldes flexibles que se pueden usar en distintas situaciones y los cuales si se aplican
-    correctamente mejorarán la calidad del software, no se trata de aprenderselos todos, sino, saber como y cuando usarlos.
+en conclusion, los patrones de diseño son guias que nos ayudan a resolver problemas en el desarrollo de software
+no son "recetas exactas" sino moldes flexibles que se pueden usar en distintas situaciones y los cuales si se aplican
+correctamente mejorarán la calidad del software, no se trata de aprenderselos todos, sino, saber como y cuando usarlos.
 
 ---
 
